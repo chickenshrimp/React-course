@@ -1,12 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import ButtonApp from './components/Button.js';
+import LoginForm from './components/LoginForm.js';
+import CustomBox from './components/CustomBox.js';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ButtonApp/>
+      <LoginForm/>
+      {/* <CustomBox/> */}
     </View>
   );
 }
